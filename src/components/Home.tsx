@@ -57,7 +57,7 @@ export default function Home(): JSX.Element {
                 <Banner
                     titleBlack="Hi, I'm"
                     titleGreen="Rudy Olsson"
-                    subtitle="Web Developer"
+                    subtitle="Full Stack Engineer"
                     btnText="View My Work">
                 </Banner>
             </SectionTop>

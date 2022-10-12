@@ -71,7 +71,7 @@ interface Props extends HTMLAttributes<HTMLElement> {
 }
 
 export default function ProjectSection({ project }: Props): JSX.Element {
-    const { imgURL, bgColor, title, description, skills, siteURL, hideLink } = project;
+    const { imgURL, bgColor, title, description, skills, siteURL } = project;
     return (
         <Wrapper $bgColor={bgColor}>
             <LazyLoad height={350} offset={200}>
@@ -88,7 +88,7 @@ export default function ProjectSection({ project }: Props): JSX.Element {
             <FadeInUp component={
                 <Tech>Skill: {skills}</Tech>
             } />
-            {hideLink || !siteURL ? '' : <FadeInUp component={
+            {!siteURL ? '' : <FadeInUp component={
                 <Link href={siteURL} target="_blank">Visit Site</Link>} />}
         </Wrapper>
     )

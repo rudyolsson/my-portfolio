@@ -6,16 +6,9 @@ import Home from 'components/Home';
 import Footer from 'components/Footer';
 import { Element } from 'react-scroll';
 import { ThemeProvider } from 'styled-components';
+import { theme } from 'styles/Theme';
 
 const App: React.FC = () => {
-  const theme: any = {
-    charcoal: "rgba(53, 53, 53, 1)",
-    lightGreen: "#e0ebe8",
-    mediumGreen: "#45b29a",
-    darkGreen:"#1e836c",
-    darkBlue: "#2b3d51",
-};
-
   return (
     <>
     <ThemeProvider theme={theme}>

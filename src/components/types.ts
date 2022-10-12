@@ -9,6 +9,5 @@ export interface Project {
   description: string;
   skills: string;
   siteURL?: string;
-  hideLink?: boolean;
   bgColor?: string;
 }
