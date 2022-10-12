@@ -7,8 +7,7 @@ export interface Project {
   imgURL: string;
   title: string;
   description: string;
-  frontEnd: string;
-  backEnd: string;
+  skills: string;
   siteURL?: string;
   hideLink?: boolean;
   bgColor?: string;

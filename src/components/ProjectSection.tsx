@@ -5,17 +5,20 @@ import LazyLoad from 'react-lazyload';
 import ScrollAnimation from 'react-animate-on-scroll';
 import { Project } from './types';
 
-const Wrapper = styled.section`
+interface WrapperProps {
+    $bgColor?: string;
+}
+
+const Wrapper = styled.section<WrapperProps>`
     padding: 70px 30px;
     text-align: center;
     align-items: center;
-    background-color: ${props => props.bgColor};
-    color: #fff;
+    background-color: ${props => props.$bgColor};
+    color: #000;
 `;
 
-const ScreenShot = styled.img.attrs({
-    src: props => props.src
-})`
+
+const ScreenShot = styled.img`
     border-radius: 5px;
     max-height: 200px;
     max-width: 300px;
@@ -38,11 +41,10 @@ const Title = styled.h1`
 `;
 
 const Paragraph = styled.p`
-    color: white;
     max-width: 700px;
     margin: 20px auto;
     font-size: 1.25em;
-`;
+    `;
 
 const Tech = styled.p`
     font-size: 0.75em;
@@ -64,33 +66,30 @@ const Link = styled.a`
     }
 `;
 
-interface Props extends HTMLAttributes<HTMLElement> { 
+interface Props extends HTMLAttributes<HTMLElement> {
     project: Project;
 }
 
-export default function ProjectSection({project}: Props): JSX.Element {
-    const { imgURL, bgColor, title, description, frontEnd, backEnd, siteURL, hideLink } = project;
+export default function ProjectSection({ project }: Props): JSX.Element {
+    const { imgURL, bgColor, title, description, skills, siteURL, hideLink } = project;
     return (
-        <Wrapper bgColor={bgColor}>
+        <Wrapper $bgColor={bgColor}>
             <LazyLoad height={350} offset={200}>
                 <ScrollAnimation animateIn="fadeIn" offset={50} duration={1} animateOnce={true} delay={0}>
-                    <ScreenShot src={imgURL}/>
+                    <ScreenShot src={imgURL} />
                 </ScrollAnimation>
             </LazyLoad>
             <FadeInUp component={
                 <Title>{title}</Title>
-            }/>
+            } />
             <FadeInUp component={
                 <Paragraph>{description}</Paragraph>
-            }/>
+            } />
             <FadeInUp component={
-                <Tech>{frontEnd}</Tech>
-            }/>
-            <FadeInUp component={
-                <Tech>{backEnd}</Tech>
-            }/>
-                    { hideLink || !siteURL ? '' : <FadeInUp component={
-            <Link href={siteURL} target="_blank">Visit Site</Link>}/>}
+                <Tech>Skill: {skills}</Tech>
+            } />
+            {hideLink || !siteURL ? '' : <FadeInUp component={
+                <Link href={siteURL} target="_blank">Visit Site</Link>} />}
         </Wrapper>
     )
 }

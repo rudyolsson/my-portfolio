@@ -62,10 +62,10 @@ export default function Home(): JSX.Element {
                 </Banner>
             </SectionTop>
             <Section className="forest">
-                <Flag  src={flag} alt="flag"/>
-                <Avatar src={avatar} alt="avatar"/>
+                <Flag src={flag} alt="flag" />
+                <Avatar src={avatar} alt="avatar" />
                 <TitleSmall>About</TitleSmall>
-                <FadeInUp component={<Paragraph>I am a Canadian Expat and full-stack JavaScript developer with a passion for creating great user experiences. I bring with me a sincere drive and ability to learn on-the-fly; I love a challenge.</Paragraph>}/>
+                <FadeInUp component={<Paragraph>I am a full-stack developer with a passion for creating great user experiences. I bring with me a sincere drive and ability to learn on-the-fly; I love a challenge.</Paragraph>} />
             </Section>
         </>
     )
