@@ -1,25 +1,36 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Header from 'components/Header/Header';
+import WorkLayout from 'components/WorkLayout';
+import Home from 'components/Home';
+import Footer from 'components/Footer';
+import { Element } from 'react-scroll';
+import { ThemeProvider } from 'styled-components';
 
-function App() {
+const App: React.FC = () => {
+  const theme: any = {
+    charcoal: "rgba(53, 53, 53, 1)",
+    lightGreen: "#e0ebe8",
+    mediumGreen: "#45b29a",
+    darkGreen:"#1e836c",
+    darkBlue: "#2b3d51",
+};
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <ThemeProvider theme={theme}>
+        <Header/>
+        <Element id='home' name='home'>
+          <Home/>
+        </Element>
+        <Element id='work' name='work'>
+          <WorkLayout/>
+        </Element>
+        <Element id='contact' name='contact'>
+          <Footer />
+        </Element>
+      </ThemeProvider>
+    </>
   );
 }
 
