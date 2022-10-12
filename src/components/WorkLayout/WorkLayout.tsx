@@ -1,5 +1,5 @@
 import {ProjectSection} from 'components/ProjectSection';
-import {FadeInUp} from 'components/FadeInUp';
+import { FadeIn } from 'components/FadeIn';
 import {FancyButton} from 'components/FancyButton/FancyButton';
 import { MdMail } from 'react-icons/md';
 import {ScrollDownIcon} from 'components/ScrollDownIcon';
@@ -10,10 +10,10 @@ export const  WorkLayout = () => {
     return (
         <>
             <S.Section>
-                <FadeInUp component={<S.TitleLarge>Recent Work</S.TitleLarge>} />
-                <FadeInUp component={<S.Paragraph>Here are some projects that I have worked on recently. For more information visit the sites, or to see what personal projects I've been working on check out my <S.Anchor href="https://github.com/rudyolsson">GitHub.</S.Anchor></S.Paragraph>} />
+                <FadeIn component={<S.TitleLarge>Recent Work</S.TitleLarge>} />
+                <FadeIn component={<S.Paragraph>Here are some projects that I have worked on recently. For more information visit the sites, or to see what personal projects I've been working on check out my <S.Anchor href="https://github.com/rudyolsson">GitHub.</S.Anchor></S.Paragraph>} />
             </S.Section>
-            <FadeInUp component={<ScrollDownIcon />} />
+            <FadeIn component={<ScrollDownIcon />} />
 
             {projects.map((project, i) => {
                 return (
@@ -27,8 +27,8 @@ export const  WorkLayout = () => {
             })}
             <S.Section>
                 <S.TitleLarge>Let's Chat</S.TitleLarge>
-                <FadeInUp component={<S.Anchor href="mailto:rudyolsson.contact@gmail.com"><FancyButton><MdMail /> Message Me</FancyButton></S.Anchor>} />
-                <FadeInUp component={<S.Paragraph>If you are interested in working together or just feel like saying hey, reach out.</S.Paragraph>} />
+                <FadeIn component={<S.Anchor href="mailto:rudyolsson.contact@gmail.com"><FancyButton><MdMail /> Message Me</FancyButton></S.Anchor>} />
+                <FadeIn component={<S.Paragraph>If you are interested in working together or just feel like saying hey, reach out.</S.Paragraph>} />
             </S.Section>
         </>
     )

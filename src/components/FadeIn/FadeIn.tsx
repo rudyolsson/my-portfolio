@@ -7,9 +7,9 @@ interface Props extends HTMLAttributes<HTMLElement> {
     offset?: number;
 }
 
-export const FadeInUp = ({ component, delay, offset }: Props) => {
+export const FadeIn = ({ component, delay, offset }: Props) => {
     return (
-        <ScrollAnimation animateIn="fadeInUp" offset={offset || 50} duration={0.8} animateOnce={true} delay={delay || 0}>
+        <ScrollAnimation animateIn="fadeIn" offset={offset || 50} duration={0.4} animateOnce={true} delay={delay || 0}>
             {component}
         </ScrollAnimation>
     )

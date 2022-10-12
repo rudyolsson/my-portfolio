@@ -1,7 +1,7 @@
 import {Banner} from 'components/Banner'
 import avatar from 'assets/images/ro.png';
 import flag from 'assets/images/flag.png';
-import {FadeInUp} from 'components/FadeInUp';
+import { FadeIn } from 'components/FadeIn';
 import * as S from './styles';
 
 export const Home = () => {
@@ -19,7 +19,7 @@ export const Home = () => {
                 <S.Flag src={flag} alt="flag" />
                 <S.Avatar src={avatar} alt="avatar" />
                 <S.TitleSmall>About</S.TitleSmall>
-                <FadeInUp component={<S.Paragraph>I am a full-stack developer with a passion for creating great user experiences. I bring with me a sincere drive and ability to learn on-the-fly; I love a challenge.</S.Paragraph>} />
+                <FadeIn component={<S.Paragraph>I am a full-stack developer with a passion for creating great user experiences. I bring with me a sincere drive and ability to learn on-the-fly; I love a challenge.</S.Paragraph>} />
             </S.Section>
         </>
     )

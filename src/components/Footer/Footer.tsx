@@ -1,14 +1,14 @@
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
-import {FadeInUp} from 'components/FadeInUp';
+import { FadeIn } from 'components/FadeIn';
 import * as S from './styles';
 
 export const Footer = () => {
     return (
-        <FadeInUp  component={
+        <FadeIn  component={
         <S.Wrapper>
             <S.FooterNav>
-                <FadeInUp
+                <FadeIn
                 delay={200}
                 component={
                     <S.NavItem>
@@ -17,7 +17,7 @@ export const Footer = () => {
                         </S.Anchor>
                     </S.NavItem>
                 }/>
-                <FadeInUp
+                <FadeIn
                 delay={400}
                 component={
                     <S.NavItem>
@@ -26,7 +26,7 @@ export const Footer = () => {
                         </S.Anchor>
                     </S.NavItem>
                 }/>
-                <FadeInUp
+                <FadeIn
                 delay={600}
                 component={
                     <S.NavItem>
