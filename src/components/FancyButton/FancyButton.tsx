@@ -1,11 +1,11 @@
-import React, { HTMLAttributes } from 'react'
-import './FancyButton.scss';
+import { HTMLAttributes } from 'react';
+import './FancyButton.scss';  
 
 interface Props extends HTMLAttributes<HTMLElement> { 
     handleClick?: (event: React.MouseEvent<HTMLButtonElement>) => void;
 }
 
-export default function FancyButton({children, handleClick}: Props): JSX.Element {
+export const FancyButton = ({children, handleClick}: Props) => {
     return (
         <button className="button" onClick={handleClick}>
             {children}

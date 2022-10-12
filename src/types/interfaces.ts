@@ -1,8 +1,3 @@
-export interface TechIcon {
-  src: string;
-  name: string;
-}
-
 export interface Project {
   imgURL: string;
   title: string;
