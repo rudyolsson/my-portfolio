@@ -13,17 +13,17 @@ export const bounce = keyframes`
 `;
 
 export const Wrapper = styled.div`
-position: relative;
-margin: 20px auto 0 auto;
-height: 50px;
+  position: relative;
+  margin: 20px auto 0 auto;
+  height: 50px;
 `;
 
 export const Icon = styled.div`
-text-align: center;
-margin: 10px 0;
-font-size: 2em;
-color: ${props => props.theme.mediumGreen};
--moz-animation: ${bounce} 2s infinite;
--webkit-animation: ${bounce} 2s infinite;
-animation: ${bounce} 2s infinite;
+  text-align: center;
+  margin: 10px 0;
+  font-size: 2em;
+  color: ${(props) => props.theme.mediumGreen};
+  -moz-animation: ${bounce} 2s infinite;
+  -webkit-animation: ${bounce} 2s infinite;
+  animation: ${bounce} 2s infinite;
 `;
