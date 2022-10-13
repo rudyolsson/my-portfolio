@@ -14,7 +14,7 @@ export const ProjectSection = ({ project }: Props) => {
         <FadeIn component={<S.ScreenShot src={imgURL} alt={`An image of the app ${title}`} />} />
       <FadeIn component={<S.Title>{title}</S.Title>} />
       <FadeIn component={<S.Paragraph>{description}</S.Paragraph>} />
-      <FadeIn component={<S.Tech>Skills: {skills}</S.Tech>} delay={100} />
+      <FadeIn component={<S.Tech>Skills and tools: {skills}</S.Tech>} delay={100} />
       {!siteURL ? (
         ''
       ) : (

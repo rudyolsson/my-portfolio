@@ -6,6 +6,7 @@ import HIImage from 'assets/images/hotel-insights.png';
 import CapGImage from 'assets/images/capital-g.png';
 import GMSImage from 'assets/images/gms.png';
 import UnmindImage from 'assets/images/unmind.png';
+import SpeechmaticsImage from 'assets/images/speechmatics.png';
 import { Project } from 'types/interfaces';
 
 export const projects: Project[] = [
@@ -14,7 +15,7 @@ export const projects: Project[] = [
     title: 'Unmind Web and Mobile App',
     description: 'A cultural change platform for mental health and wellbeing.',
     skills:
-      'React.js, AWS, GraphQL, JavaScript, Typescript, Infrastructure As Code (IaC), Node.js, Docker, PostgresSQL, Nest.js (Apollo), Prisma',
+      'React.js, GraphQL, AWS, JavaScript, Typescript, Infrastructure As Code (IaC), Node.js, Contentful, PostgresSQL, Nest.js (Apollo), Docker',
     siteURL: 'https://www.unmind.com',
   },
   {
@@ -22,7 +23,7 @@ export const projects: Project[] = [
     title: 'Hotel Insights with Google',
     description:
       'Hotel Insights uses hotel search data to help small and independent hoteliers determine where to target their marketing efforts.',
-    skills: 'Angular 2+, GCP, NgRx (Redux), JavaScript, Typescript, RxJs, Python3',
+    skills: 'Angular 2+, RxJs, NgRx (Redux), JavaScript, Typescript, RxJs, GCP, Python3',
     siteURL: 'https://hotelinsights.withgoogle.com/intl/en/',
   },
   {
@@ -30,15 +31,22 @@ export const projects: Project[] = [
     title: 'CapitalG',
     description:
       'CapitalG is Alphabet’s independent growth fund. Their portfolio includes companies like AirBnB, Lyft, and Stripe.',
-    skills: 'Angular 2+, RxJs, GCP, JavaScript, Typescript, Python3',
+    skills: 'Angular 2+, RxJs, JavaScript, Typescript, GCP, Python3',
     siteURL: 'https://capitalg.com/',
+  },
+  {
+    imgURL: SpeechmaticsImage,
+    title: 'Speechmatics',
+    description: 'Static site build for Speechmatics - the most accurate and inclusive Speech-to-Text technology.',
+    skills: 'React.js, Next.js, GraphQL, Contentful',
+    siteURL: 'https://www.speechmatics.com/',
   },
   {
     imgURL: GMSImage,
     title: 'Grow My Store with Google',
     description:
       "Grow My Store performs an assessment of online shops and creates a report offering recommendations for shop owners to improve the customers' shopping experience and accelerate the development of their business.",
-    skills: 'Angular 2+, GCP, NgRx (Redux), RxJs, JavaScript, Typescript, Python3',
+    skills: 'Angular 2+, RxJs, NgRx (Redux), JavaScript, Typescript, GCP, Python3',
     siteURL: 'https://growmystore.thinkwithgoogle.com/',
   },
   {
