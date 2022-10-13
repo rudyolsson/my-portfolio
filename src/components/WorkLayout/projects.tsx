@@ -13,14 +13,14 @@ export const projects: Project[] = [
         imgURL: UnmindImage,
         title: "Unmind Web and Mobile App",
         description: "A cultural change platform for mental health and wellbeing.",
-        skills: "React.js, AWS, GraphQL, JavaScript, Typescript, Node.js, Docker, PostgresSQL",
+        skills: "React.js, AWS, GraphQL, JavaScript, Typescript, Infrastructure As Code (IaC), Node.js, Docker, PostgresSQL, Nest.js (Apollo), Prisma",
         siteURL: "https://www.unmind.com",
     },
     {
         imgURL: HIImage,
         title: "Hotel Insights with Google",
         description: "Hotel Insights uses hotel search data to help small and independent hoteliers determine where to target their marketing efforts.",
-        skills: "Angular 2+, GCP, NgRx (Redux), RxJs",
+        skills: "Angular 2+, GCP, NgRx (Redux), JavaScript, Typescript, RxJs, Python3",
         siteURL: "https://hotelinsights.withgoogle.com/intl/en/",
 
     },
@@ -28,7 +28,7 @@ export const projects: Project[] = [
         imgURL: CapGImage,
         title: "CapitalG",
         description: "CapitalG is Alphabet’s independent growth fund. Their portfolio includes companies like AirBnB, Lyft, and Stripe.",
-        skills: "Angular 2+, RxJs",
+        skills: "Angular 2+, RxJs, GCP, JavaScript, Typescript, Python3",
         siteURL: "https://capitalg.com/",
 
     },
@@ -36,7 +36,7 @@ export const projects: Project[] = [
         imgURL: GMSImage,
         title: "Grow My Store with Google",
         description: "Grow My Store performs an assessment of online shops and creates a report offering recommendations for shop owners to improve the customers' shopping experience and accelerate the development of their business.",
-        skills: "Angular 2+, GCP, NgRx (Redux), RxJs",
+        skills: "Angular 2+, GCP, NgRx (Redux), RxJs, JavaScript, Typescript, Python3",
         siteURL: "https://growmystore.thinkwithgoogle.com/",
 
     },
@@ -44,14 +44,14 @@ export const projects: Project[] = [
         imgURL: ArtysImg,
         title: "Artys Music Platform",
         description: "Artys is a music platform and API to discover, vote on, and favourite music. User's can allocate their monthly subscription fee directly to artists with help from a secure blockchain who in turn can give percentages of the songs rights to group members or featured acts.",
-        skills: "Angular 2+, MobX, RxJs, : NestJS (Express), ObjectionJS, KnexJS, PostgreSQL, Docker",
+        skills: "Angular 2+, MobX, RxJs, Nest.js (Express), Objection.js, Knex.js, PostgreSQL, Docker",
 
     },
     {
         imgURL: UmatchImg,
         title: "UMatch Artist Platform and Admin UIs",
         description: "UIs and API for artists to upload and manage their music on Artys Music as well as a Shapr-like mechanism for collaborating and messaging with other artists.",
-        skills: "Angular 2+, MobX, RxJs, : NestJS (Express), ObjectionJS, KnexJS, PostgreSQL, Docker",
+        skills: "Angular 2+, MobX, RxJs, Nest.js (Express), Objection.js, Knex.js, PostgreSQL, Docker",
     },
     {
         imgURL: FlexoImg,
@@ -63,6 +63,6 @@ export const projects: Project[] = [
         imgURL: TokenUIImg,
         title: "Token Investment Platform",
         description: "API and UI's for administrators and users to buy and sell tokenized resources as well as monitor resources saved to the blockchain.",
-        skills: "Angular 2+, NgRx, RxJS,  NestJS (Express), TypeORM, PostgreSQL, Docker",
+        skills: "Angular 2+, NgRx, RxJS,  Nest.js (Express), TypeORM, PostgreSQL, Docker",
     },
 ];

@@ -21,13 +21,13 @@ padding: 0;
 `;
 
 export const NavItem = styled.li`
+`;
+
+export const Anchor = styled.a`
 font-size: 2.5em;
 &:hover {
     cursor: pointer;
 }
-`;
-
-export const Anchor = styled.a`
 text-decoration: none;
 position: relative;
 color: inherit;
