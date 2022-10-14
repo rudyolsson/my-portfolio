@@ -19,7 +19,7 @@
     font-weight: bold;
     border-radius: 0;
     box-shadow: inset 0 0 0 var(--border-size) currentcolor;
-    transition: background .8s ease;
+    transition: background .6s ease;
     margin: 20px auto;
     
     &:hover {
@@ -33,7 +33,7 @@
         right: var(--vertical-offset, 0);
         bottom: var(--horizontal-offset, 0);
         left: var(--vertical-offset, 0);
-        transition: transform .8s ease;
+        transition: transform .6s ease;
         will-change: transform;
         
         &::before {

@@ -42,7 +42,8 @@ export const Paragraph = styled.p`
 
 export const Tech = styled.p`
   font-size: 0.75em;
-  margin: 5px 0 0 0;
+  margin: 5px auto 0 auto;
+  max-width: 80%;
 `;
 
 export const Link = styled.a`

@@ -24,20 +24,20 @@ export const NavItem = styled.li``;
 
 export const Anchor = styled.a`
   font-size: 2.5em;
-  &:hover {
-    cursor: pointer;
-  }
   text-decoration: none;
   position: relative;
   color: inherit;
+  
+  &:hover {
+    cursor: pointer;
+  }
 
   &::after {
     position: absolute;
     content: '';
-    height: 0.1em;
+    height: 4px;
     top: 100%;
     background: currentColor;
-    z-index: -1;
     left: 0;
     right: 0;
     transform: scaleX(0);

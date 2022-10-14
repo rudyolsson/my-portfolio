@@ -15,7 +15,7 @@ export const projects: Project[] = [
     title: 'Unmind Web and Mobile App',
     description: 'A cultural change platform for mental health and wellbeing.',
     skills:
-      'React.js, GraphQL, AWS, JavaScript, Typescript, Infrastructure As Code (IaC), Node.js, Contentful, PostgresSQL, Nest.js (Apollo), Docker',
+      'React.js, GraphQL, Amazon Web Services (AWS), Node.js, Nest.js (Apollo), Event Driven Architecture, Infrastructure As Code (IaC), JavaScript, Typescript, Contentful, PostgresSQL, Docker',
     siteURL: 'https://www.unmind.com',
   },
   {
