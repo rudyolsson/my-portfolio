@@ -1,5 +1,5 @@
 import { HTMLAttributes } from 'react';
-import ScrollAnimation from 'react-animate-on-scroll';
+import { motion } from 'framer-motion';
 
 interface Props extends HTMLAttributes<HTMLElement> {
   component: JSX.Element;
@@ -9,14 +9,13 @@ interface Props extends HTMLAttributes<HTMLElement> {
 
 export const FadeIn = ({ component, delay, offset }: Props) => {
   return (
-    <ScrollAnimation
-      animateIn="fadeIn"
-      offset={offset || 50}
-      duration={0.4}
-      animateOnce={true}
-      delay={delay || 0}
+    <motion.div
+      initial={{ opacity: 0, y: 50 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true, margin: `-${offset || 50}px` }}
+      transition={{ duration: 0.4, delay: delay || 0 }}
     >
       {component}
-    </ScrollAnimation>
+    </motion.div>
   );
 };
