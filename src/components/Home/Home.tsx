@@ -10,7 +10,7 @@ export const Home = () => {
         <Banner
           titleBlack="Hi, I'm"
           titleGreen="Rudy Olsson"
-          subtitle="Full Stack Engineer"
+          subtitle="Senior Software Engineer"
           btnText="View My Work"
         ></Banner>
       </S.SectionTop>
@@ -20,8 +20,7 @@ export const Home = () => {
         <FadeIn
           component={
             <S.Paragraph>
-              I am a full-stack developer with a passion for creating great user experiences. I
-              bring with me a sincere drive and ability to learn on-the-fly; I love a challenge.
+              Senior Software Engineer with +{new Date().getFullYear() - 2018} years of experience building SaaS platforms and distributed systems. Skilled in designing scalable architectures, leading cross-functional projects, crafting intuitive user experiences, and delivering products that drive business impact.
             </S.Paragraph>
           }
         />

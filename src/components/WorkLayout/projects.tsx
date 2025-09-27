@@ -7,15 +7,24 @@ import CapGImage from 'assets/images/capital-g.png';
 import GMSImage from 'assets/images/gms.png';
 import UnmindImage from 'assets/images/unmind.png';
 import SpeechmaticsImage from 'assets/images/speechmatics.png';
+import MedMeImage from 'assets/images/medme.png';
 import { Project } from 'types/interfaces';
 
 export const projects: Project[] = [
+  {
+    imgURL: MedMeImage,
+    title: 'MedMe Web App and Schedling Engine',
+    description: 'SaaS platform for medical professionals to deliver, manage, and scale clinical services.',
+    skills:
+      'Node.js, Typescript, Go, Amazon Web Services (AWS), Nest.js, Event Driven Architecture, PostgreSQL, Infrastructure As Code (IaC), JavaScript',
+    siteURL: 'https://www.medmehealth.com/',
+  },
   {
     imgURL: UnmindImage,
     title: 'Unmind Web and Mobile App',
     description: 'A cultural change platform for mental health and wellbeing.',
     skills:
-      'React.js, GraphQL, Amazon Web Services (AWS), Node.js, Nest.js (Apollo), Event Driven Architecture, Infrastructure As Code (IaC), JavaScript, Typescript, Contentful, PostgresSQL, Docker',
+      'React.js, GraphQL, Amazon Web Services (AWS), Node.js, Nest.js (Apollo), Infrastructure As Code (IaC), JavaScript, Typescript, Contentful, PostgresSQL, Docker',
     siteURL: 'https://www.unmind.com',
   },
   {
@@ -24,7 +33,6 @@ export const projects: Project[] = [
     description:
       'Hotel Insights uses hotel search data to help small and independent hoteliers determine where to target their marketing efforts.',
     skills: 'Angular 2+, RxJs, NgRx (Redux), JavaScript, Typescript, RxJs, GCP, Python3',
-    siteURL: 'https://hotelinsights.withgoogle.com/intl/en/',
   },
   {
     imgURL: CapGImage,
@@ -39,7 +47,6 @@ export const projects: Project[] = [
     title: 'Speechmatics',
     description: 'Static site build for Speechmatics - the most accurate and inclusive Speech-to-Text technology.',
     skills: 'React.js, Next.js, GraphQL, Contentful',
-    siteURL: 'https://www.speechmatics.com/',
   },
   {
     imgURL: GMSImage,
