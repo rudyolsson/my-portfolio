@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.59639bbe.css",
-    "main.js": "/my-portfolio/static/js/main.13c18ea8.js",
+    "main.css": "/my-portfolio/static/css/main.d6812192.css",
+    "main.js": "/my-portfolio/static/js/main.49d61b9d.js",
     "static/media/flexo-three-screens.png": "/my-portfolio/static/media/flexo-three-screens.5561acfa28bbc5059501.png",
     "static/media/speechmatics.png": "/my-portfolio/static/media/speechmatics.0fefc2507e172a302c86.png",
     "static/media/umatch-three-screens.png": "/my-portfolio/static/media/umatch-three-screens.8af5c8e1b09d7168195c.png",
@@ -11,12 +11,13 @@
     "static/media/gms.png": "/my-portfolio/static/media/gms.b940f1c66c046dbe7923.png",
     "static/media/hotel-insights.png": "/my-portfolio/static/media/hotel-insights.d6be50dd90039c12b799.png",
     "static/media/capital-g.png": "/my-portfolio/static/media/capital-g.91cf32c342338b9ba0c8.png",
+    "static/media/medme.png": "/my-portfolio/static/media/medme.870f8146b5eb2b0b3f90.png",
     "index.html": "/my-portfolio/index.html",
-    "main.59639bbe.css.map": "/my-portfolio/static/css/main.59639bbe.css.map",
-    "main.13c18ea8.js.map": "/my-portfolio/static/js/main.13c18ea8.js.map"
+    "main.d6812192.css.map": "/my-portfolio/static/css/main.d6812192.css.map",
+    "main.49d61b9d.js.map": "/my-portfolio/static/js/main.49d61b9d.js.map"
   },
   "entrypoints": [
-    "static/css/main.59639bbe.css",
-    "static/js/main.13c18ea8.js"
+    "static/css/main.d6812192.css",
+    "static/js/main.49d61b9d.js"
   ]
 }
