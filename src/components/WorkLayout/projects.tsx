@@ -14,7 +14,8 @@ export const projects: Project[] = [
   {
     imgURL: MedMeImage,
     title: 'MedMe Web App and Schedling Engine',
-    description: 'SaaS platform for medical professionals to deliver, manage, and scale clinical services.',
+    description:
+      'SaaS platform for medical professionals to deliver, manage, and scale clinical services.',
     skills:
       'Node.js, Typescript, Go, Amazon Web Services (AWS), Nest.js, Event Driven Architecture, PostgreSQL, Infrastructure As Code (IaC), JavaScript',
     siteURL: 'https://www.medmehealth.com/',
@@ -45,7 +46,8 @@ export const projects: Project[] = [
   {
     imgURL: SpeechmaticsImage,
     title: 'Speechmatics',
-    description: 'Static site build for Speechmatics - the most accurate and inclusive Speech-to-Text technology.',
+    description:
+      'Static site build for Speechmatics - the most accurate and inclusive Speech-to-Text technology.',
     skills: 'React.js, Next.js, GraphQL, Contentful',
   },
   {

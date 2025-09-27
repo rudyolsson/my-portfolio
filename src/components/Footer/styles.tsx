@@ -27,7 +27,7 @@ export const Anchor = styled.a`
   text-decoration: none;
   position: relative;
   color: inherit;
-  
+
   &:hover {
     cursor: pointer;
   }

@@ -20,7 +20,10 @@ export const Home = () => {
         <FadeIn
           component={
             <S.Paragraph>
-              Senior Software Engineer with +{new Date().getFullYear() - 2018} years of experience building SaaS platforms and distributed systems. Skilled in designing scalable architectures, leading cross-functional projects, crafting intuitive user experiences, and delivering products that drive business impact.
+              Senior Software Engineer with +{new Date().getFullYear() - 2018} years of experience
+              building SaaS platforms and distributed systems. Skilled in designing scalable
+              architectures, leading cross-functional projects, crafting intuitive user experiences,
+              and delivering products that drive business impact.
             </S.Paragraph>
           }
         />
